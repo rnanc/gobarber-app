@@ -37,7 +37,7 @@ interface ProfileFormData {
 }
 
 const Profile: React.FC = () => {
-  const { user, updateUser } = useAuth();
+  const { user, updateUser, signOut } = useAuth();
   const navigation = useNavigation();
   const formRef = useRef<FormHandles>(null);
   const emailInputRef = useRef<TextInput>(null);
@@ -243,6 +243,13 @@ const Profile: React.FC = () => {
                 }}
               >
                 Confirmar Mudanças
+              </Button>
+              <Button
+                onPress={() => {
+                  signOut();
+                }}
+              >
+                LogOut
               </Button>
             </Form>
           </Container>
