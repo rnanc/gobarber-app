@@ -28,6 +28,8 @@ for Android:
 
 `$ yarn android`
 
+for Android Studio Emulator:
+
 `$ adb revere tcp:3333 tcp:3333`
 
 for IOS:
