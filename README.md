@@ -6,7 +6,7 @@
 
 Mobile app used to make appointment with providers.
 
-### Tecnologies
+### Technologies
 
 - Typescript
 - React Native
