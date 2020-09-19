@@ -30,7 +30,7 @@ for Android:
 
 for Android Studio Emulator:
 
-`$ adb revere tcp:3333 tcp:3333`
+`$ adb reverse tcp:3333 tcp:3333`
 
 for IOS:
 
